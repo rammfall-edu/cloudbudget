@@ -13,3 +13,18 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (max-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 730px) {
+    .container {
+        width: 92%;
+    }
+}
+
+
+

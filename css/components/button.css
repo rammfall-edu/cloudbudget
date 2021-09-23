@@ -5,5 +5,14 @@
     padding: 21px 15px;
     text-align: center;
     color: #ED4C5C;
+    font-size: 1.4rem;
+    line-height: 1.21;
+    font-weight: bold;
     text-transform: uppercase;
+}
+
+@media (max-width: 730px) {
+    .button {
+        padding: 10px 8px;
+    }
 }
