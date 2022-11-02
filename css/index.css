@@ -3,6 +3,10 @@
 @import "general.css";
 
 @import "components/button.css";
+@import "components/title.css";
 
 @import "sections/hero.css";
-
+@import "sections/about.css";
+@import "sections/features.css";
+@import "sections/technology.css";
+@import "sections/platforms.css";

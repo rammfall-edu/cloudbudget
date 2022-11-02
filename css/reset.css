@@ -369,3 +369,7 @@ button {
     color: inherit;
     font-family: inherit;
 }
+
+img {
+    width: 100%;
+}

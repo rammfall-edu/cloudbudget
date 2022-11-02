@@ -1,0 +1,53 @@
+.platforms {
+    padding-top: 61px;
+    padding-bottom: 61px;
+    background-color: #ED4C5C;
+    color: white;
+}
+
+@media (width <= 960px) {
+    .platforms {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+.platforms__container {
+    display: flex;
+    gap: 125px;
+    align-items: center;
+}
+
+@media (width <= 960px) {
+    .platforms__container {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+}
+
+.platforms__title {
+    margin-bottom: 32px;
+}
+
+.platforms__text {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-bottom: 33px;
+}
+
+.platforms__list {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+}
+
+.platforms__map {
+    width: 48%;
+    border-radius: 15px;
+}
+
+@media (width <= 767px) {
+    .platforms__map {
+        width: 100%;
+    }
+}

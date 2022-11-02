@@ -11,8 +11,8 @@
     text-transform: uppercase;
 }
 
-@media (max-width: 730px) {
+@media (width <= 960px) {
     .button {
-        padding: 10px 8px;
+        padding: 10px 15px;
     }
 }
